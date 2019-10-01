@@ -1,0 +1,2862 @@
+/*
+Theme Name:     Sweetdate Child
+Theme URI:
+Description:    Child theme for Sweetdate
+Author:         SeventhQueen
+Author URI:     http://seventhqueen.com
+Template:       sweetdate
+Tags: dating, clean, responsive, creative, minimal, modern, landing page, social, buddypress,bbpress, woocommerce
+License: GNU General Public License
+License URI: license.txt
+*/
+@import url("../sweetdate/style.css");
+
+/*
+* Please add your custom styles below
+*/
+
+/* MEMBERS PAGE */
+/* .directory.members h2{
+	font-size:1.2em;
+	
+} */
+
+/* .page-id-1027 .unread-count {	
+position: absolute;
+width:15px;
+height:15px;
+background-color:yellow;
+}
+
+.page-id-1339 .unread-count {	
+position: absolute;
+width:15px;
+height:15px;
+background-color:yellow;
+} */
+
+
+/* ========SIDE BAR MY HOME=================== */
+
+
+/* .avatar-block{
+	width:35%!important;
+	display:inline-block!important;
+	
+} */
+
+/* #groups-list li{
+	width:35%!important;
+	display:inline-block!important;
+	
+} */
+
+
+/* =====================NEWSLETTER====support area======= */
+
+
+
+.page-id-1465 #support{
+	display:none!important;
+	    border-top: 1px solid rgba(250, 250, 250, 0);
+}
+
+
+
+/* ============BOXED FULL WIDTH========== */
+.page-id-844 .kleo-page.boxed-style {
+    max-width: 100% !important;
+}
+
+.page-id-7 .kleo-page.boxed-style {
+   /*  max-width: 100% !important; */
+}
+
+.page-id-1388 .kleo-page.boxed-style {
+    max-width: 100% !important;
+}
+
+.page-id-1465 .kleo-page.boxed-style {
+    max-width: 100% !important;
+}
+
+.page-id-1098 .kleo-page.boxed-style {
+    max-width: 100% !important;
+}
+
+
+/* ========LOGO========= */
+
+
+#logo img {
+   
+    width: 85%;
+}
+
+
+/* =========CONTACT PAGE================= */
+
+.page-id-1465 section{
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.page-id-1388 section{
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+div.background1{
+	
+    background-image: url(pattern/fond-deroulant.png);
+
+  
+	
+	
+}
+
+#sixcol{
+	padding-top: 20px;
+	   /*  padding-bottom: 120px; */
+}
+
+.page-id-1465 h4{
+	
+	    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1px;
+        text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.58);
+}
+
+
+.page-id-1465 .para1 p{
+	  font-family: 'Oswald', sans-serif;
+		font-size:1.5em;
+}
+
+.page-id-1388 h4{
+	
+	    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1px;
+        text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.58);
+}
+
+
+.page-id-1388 .para1 p{
+	  font-family: 'Oswald', sans-serif;
+		font-size:1.5em;
+}
+
+.locationz h1{
+	    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    left: 102px;
+    top: 350px;
+    font-size: 3.2em;
+
+    transform: rotate(3deg);
+	    text-shadow: 3px 3px 0 rgba(183, 183, 183, 0.58);
+}
+
+.locationz2 h1{
+	    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: absolute;
+        z-index: 2;
+    left: 123px;
+    top: 425px;
+    font-size: 2.7em;
+	    text-shadow: 3px 3px 0 rgba(183, 183, 183, 0.58);
+}
+
+.locationz3 h1{
+	    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: absolute;
+    z-index: 2;
+        left: 152px;
+    top: 420px;
+    font-size: 3.2em;
+
+    transform: rotate(3deg);
+	    text-shadow: 3px 3px 0 rgba(183, 183, 183, 0.58);
+}
+
+.locationz4 h1{
+	    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: absolute;
+        z-index: 2;
+       left: 173px;
+    top: 487px;
+    font-size: 2.9em;
+	    text-shadow: 3px 3px 0 rgba(183, 183, 183, 0.58);
+}
+
+.pinup{
+	
+    position: absolute;
+        top: 50px;
+    right: 50px;
+
+    width: 100%;
+	
+}
+
+.page-id-1388 .pinup{
+	
+    position: absolute;
+        top: 50px;
+    right: 50px;
+
+    width: 100%;
+	
+}
+
+
+
+
+
+
+/* FORM CONTACT STYLE */
+.para2 p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+}
+
+input.wpcf7-submit{
+	border: 1px solid #bb1981;
+    background: #bb1981;
+    color: #ffffff;
+	    font-size: 1em;
+	
+}
+
+input.wpcf7-text{
+	border: 1px solid #d8d2c5;
+    background: #d8d2c5;
+    color: #000000;
+	    -webkit-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+	
+}
+
+.dropmenuform2{
+	border: 1px solid #d8d2c5;
+    background: #d8d2c5;
+    color: #000000;
+	    -webkit-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+	
+}
+
+.page-id-1465 textarea{
+	border: 1px solid #d8d2c5;
+    background: #d8d2c5;
+    color: #000000;
+	    -webkit-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+	
+}
+
+.page-id-1388 textarea{
+	border: 1px solid #d8d2c5;
+    background: #d8d2c5;
+    color: #000000;
+	    -webkit-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 13px -6px rgba(0,0,0,0.75);
+	
+}
+
+div.wpcf7-response-output {
+   
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.2px;
+}
+
+
+
+/* 
+=========login bouton ALL PAGE============== */
+ul.button-group{
+    margin: -7px 39px 4px 12px;
+	
+}
+
+
+
+/* ========UNREAD COUNT SUR MY MESSAGE========== */
+
+.kleo-notifications2{
+	
+	position: absolute;
+        left: 248px;
+    
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    background-color: #fb357c;
+    width: 16px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    bottom: 28px;
+    border-radius: 2px;
+	
+}
+
+/* ====plugin private message========== */
+
+
+
+
+/* JOINDRE FICHIER CACHER */
+.bp-messages-wrap .threads-list .thread .pic img {
+   
+    width: 100%;
+        height: inherit;
+}
+
+
+.bp-messages-wrap .reply .message .upload-btn {
+
+    display: none;
+}
+
+.bp-messages-wrap .threads-list .thread .unread-count {
+ 
+    padding: 10px 5px;
+    
+    font-size: 35px;
+ 
+    color: #ff4ba5;
+    font-family: 'Lobster', cursive;
+   
+}
+
+.bp-messages-wrap .scrollbar-inner > .scroll-element.scroll-y {
+  
+    width: 13px;
+  
+}
+
+.bp-messages-wrap .threads-list .thread .info .name + h4 {
+    font-size: 115%;
+   
+}
+
+.bp-messages-wrap .threads-list .thread .info .name {
+	color: #ff4ba5;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.bp-messages-wrap .chat-header .avatar {
+ 
+    width: 25px;
+}
+
+
+.bp-messages-wrap {
+    border: 1px solid rgba(255, 255, 255, 0);
+   
+    box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0);
+   -webkit-box-shadow: 0px 13px 22px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 22px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 13px 22px -16px rgba(0, 0, 0, 0.18);
+	    padding-bottom: 15px;
+}
+
+.name a{
+	color: #ff4ba5!important;
+    font-size: 1.3em;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.bp-messages-wrap .list .messages-stack .content .messages-list li {
+	
+    font-size: 1.2em;
+}
+
+
+.bp-messages-wrap .chat-header {
+    
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.bp-messages-wrap .threads-list .thread .pic {
+   
+    width: 100px;
+ 
+}
+
+.bp-messages-wrap .list .messages-stack .pic {
+    
+    width: 59px;
+  
+}
+
+.fa {
+    color:#ff4ba5!important;
+}
+
+/* ================= */
+table
+{
+	
+ width:49%;
+display:inline-block;
+
+}
+
+
+@viewport {
+   width: device-width; /* largeur du viewport */
+   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+}
+
+
+.tableau{
+	display:inline-block;
+	width:49%;
+	height:160px;
+	background-color:purple;
+	
+}
+
+
+
+
+/* ========PAGE REPORT USER============= */
+.page-id-1388 h2{
+	display:none;
+}
+
+
+/* ====================ADVANCED SEARch barre============== */
+.su-spoiler-style-fancy .su-spoiler-title {
+  -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background: #a51362 !important;
+    font-size: 0.9em;
+    color: white;
+        width: 84%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+}
+
+.su-spoiler-style-fancy {
+    border: 0px solid #fff!important;
+
+}
+
+
+.two.columns.bglabel.hz-checkbox label {
+  text-align: left;
+}
+#horizontal_search {
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+.search2 #search-bar {
+  display: block !important;
+}
+#search-bar {
+display:none;
+}
+.two.columns.bglabel label {
+  text-align: left;
+}
+.custom.dropdown.expand a {
+  text-align: left;
+}
+form#horizontal_search label {
+  text-align: left;
+}
+
+
+/* =============MENU LINK SOULIGNAGE NONE et font============= */
+.top-bar a{
+	
+	text-decoration:none;
+	font-family: 'Oswald', sans-serif;
+		
+	
+}
+
+.top-bar ul > li a:not(.button){
+	
+	    font-size: 1.15em !important;
+    text-shadow: 1px 2px 0 rgb(107, 107, 107);
+    text-transform: uppercase;
+    margin-right: 5px;
+    padding: 0px 5px 0px 5px;
+	
+}
+
+/* =====================================PAGE PROFILE================================ */
+
+div#profile {
+   
+	  border-top: 1px solid rgba(255, 255, 255, 0.3);
+	     background-color: #921346!important;
+background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%23c31569' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E")!important;
+   
+}
+
+
+#profile .tabs.info dd a, .tabs.info li a, #main #object-nav ul li a {
+   
+   
+   
+    font-family: 'Oswald', sans-serif;
+  
+    font-size: 16px;
+}
+
+#profile blockquote, blockquote p {
+   
+    color: #d0ced0;
+}
+
+#profile .regulartab dt, .regulartab dd{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;	
+	
+}
+#profile a{
+	 font-family: 'Oswald', sans-serif;
+	 letter-spacing: 1px;	
+}
+
+#profile .dl-horizontal p{
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;	
+	
+}
+
+profile .five, .row .five {
+ 
+    margin-top: 40px;
+}
+
+#profile #item-header-avatar .avatar {
+    border: 10px solid;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* =========icon PROFILE VISITED========== */
+dd.bp-field-value.bp-field-id-1010 > p {
+    display: none;
+}
+.visited-wrapper img {
+    width: 15%;
+	    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.lookingfor-wrapper img {
+    width: 15%;
+	    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+#profile .user-nicename {
+    font-size: 14px;
+    font-weight: bold;
+  
+  
+}
+
+/* =========icon PROFILE LOOKINGFOR========== */
+
+dd.bp-field-value.bp-field-id-330 >p{
+	display: none;
+	
+}
+
+.lookingfor-wrapper{
+	     width: 85%;
+	    margin-bottom: 5px;
+	
+    margin-top: 3px;
+	
+}
+
+.lookingfor-wrapper img{
+	 
+	margin-right: 5px;
+ 
+	
+}
+
+/* petit menu message forum ect */
+.item-list-tabs a:hover{
+	color:white;
+	text-decoration:none;
+	list-style:none;
+	background-color:#efefef;
+	border-radius:10px;
+	transition:0.2s;
+	
+	
+}
+
+#subnav a:hover {
+   padding:4px;
+    background-color: #f1f1f1;
+}
+
+
+.profile-title {
+        
+    position: absolute;
+   
+    margin-left: 75px;
+    top: 1px;
+    
+}
+
+.custom-wrapper{
+	    margin-left: -22.5px;
+		margin-top: 20px;
+	
+}
+
+/* label VIP */
+#profile .pmpro_label{
+	
+	display:none;
+}
+
+#profile h2{
+	
+	font-family: 'Lobster', cursive;
+}
+
+/* =====================================GROUPES========================================= */
+.buddypress #header-cover-image{
+color:white;	
+background-color: #efefef;	
+	
+}
+
+
+
+
+/* ==================================MATCH ICON SYSTEM=================================== */
+.circular-item {
+   display:none;
+}
+
+/* ======================================================================================= */
+
+
+ul.profile-thumbs li {
+    width: 94px !important;
+    height: 94px !important;
+}
+
+#header {
+    background-color: transparent;
+    background-image: url(http://www.lookingforpals.com/wp-content/themes/sweetdate/assets/images/header_image_bgg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+
+
+/* ===========================CELLULE================================ */
+.page-id-7 .search-item {
+    border: 1px solid #efefef;
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    padding-top: 10px;
+	background-image: url(http://img15.hostingpics.net/pics/422602fondcellule.png);
+	background-repeat: no-repeat;
+    background-position: center;
+	margin-bottom: 10px;
+}
+
+ /* age city */
+.page-id-7 .search-item .date, .search-item .date a{
+    height: 26px;
+    overflow: hidden;
+    color: #a5a5a5;
+    font-style: i;
+    font-size: 1.1em;
+    background-color: #f5f5f5;
+   
+    margin-left: 30px;
+    margin-right: 30px;
+	font-family: 'Oswald', sans-serif;
+	border-radius:10%;
+	line-height: 14px;
+	margin-top: -10px;
+	
+}
+
+/* pseudo */
+.page-id-7 .author{
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+/* =====================PAGE MEMBER SEULENMENRT======================== */
+
+.page-id-7	div#main{
+	background-image: url(http://img11.hostingpics.net/pics/288235macaron2.png);
+    background-repeat: no-repeat;
+    background-position: 49.3% -0.4%;
+	
+	
+}
+
+
+/* ====icon vintage femme====== */
+.page-id-7 section{
+
+       background-image: url(pinup/vintmember.png);
+    background-repeat: no-repeat;
+    background-position: 750px 40px;
+}
+
+.su-spoiler-style-fancy {
+    
+    background: rgba(255, 255, 255, 0);
+   
+}
+
+
+.page-id-7 .item-avatar {
+    border-radius: 3px !important;
+    width: 150px;
+}
+
+.page-id-7 .avatar img{
+   
+    width: 150px;
+}
+
+
+
+
+.page-id-7 .search-list {
+    margin: 0 0 40px;
+    display: inline-block;
+      
+    margin-top: 48px;
+}
+
+.page-id-7 #members-list{
+width: 100%;	
+	
+}
+
+.page-id-7 .search-item .search-body {
+    height: 60px;
+    margin-bottom: 10px;
+    overflow: hidden;
+	display: none;
+    background-color: #f1f1f1;
+}
+
+.page-id-7 .bp-member-dir-buttons {
+    margin-bottom: 1px;
+    background-color: #0095c2;
+    
+	padding-bottom: 10px;
+    padding-top: 5px;
+	display: none;
+}
+
+.page-id-7 .bp-member-dir-buttons:hover {
+    margin-bottom: 1px;
+    background-color: #004458;
+     -webkit-transition: width 2s; /* Safari */
+	padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.page-id-7 bp-member-dir-buttons a:hover{
+	background-color:red;
+	
+}
+
+
+.page-id-7 .column, .columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 5px;
+    position: relative;
+    /* background-color: #f3f3f3; */
+}
+
+.page-id-7 .button.radius {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 2px;
+}
+
+
+
+
+
+/* PAGE MEMBERS SERT A RIEN*/
+.page-id-7 #members-list .avatar{
+   width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 1px auto 1px;
+    border: 1px solid white;
+	
+	
+}
+
+/* PAGE MEMBERS LARGEUR DES CELLULE*/
+.page-id-7 #members-list{
+width: 85%;	
+	
+}
+
+.page-id-7 .search-result h2{
+font-size: 40px;
+    color: #332b50;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1px;
+	    text-shadow: 3px 3px 0 rgba(95, 95, 95, 0.33);
+
+}
+
+.page-id-7 #members-list .avatar{
+	border:0px solid white;
+	
+}
+
+.page-id-7 .avatar a img{
+	border-radius: 40px !important;
+	
+}
+
+.page-id-7 .avatar{
+	border-radius: 40px !important;
+	
+}
+
+/* ===============PAGE MY FRIENDS================= */
+
+.contain_friends{
+	
+	width:70%;
+	margin:0 auto;
+	
+	
+}
+
+.page-id-1098 h2{
+	
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 20px;
+    color: #465661;
+ 
+    text-shadow: 3px 3px 0 rgba(95, 95, 95, 0.33);
+    margin-bottom: 30px;
+	font-size: 3.2em;
+	    margin: 0;
+    padding-top: 20px;
+}
+
+.page-id-1098 h2 span{
+	
+       color: #b50769;
+}
+
+.page-id-1098 .pinup {
+    position: absolute;
+    top: 100px;
+    right: -510px;
+    width: 100%;
+
+    z-index: 1;
+    margin-top: 30px;
+}
+
+
+.page-id-1098 h4 a{
+    display: block;
+    background-color:rgba(255, 237, 255, 0);
+    height: 65px;
+    padding-top: 17px;
+    color: #565656;
+	font-family: 'Oswald', sans-serif;
+	margin-left:10px;
+}
+
+.page-id-1098 h4 a:hover {
+    color:white!important;
+}
+
+/* .page-id-1098 h4 a:hover{
+    display: block;
+    background-color: #ffedff;
+    height: 65px;
+    padding-top: 17px;
+	color:white;
+	transition:0.2s;
+	margin-left:10px;
+} */
+
+.page-id-1098 .my_friends ul li{
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 200px;
+       background-color: rgba(0, 0, 0, 0.19);
+    margin-right: 10px;
+    width: 200px;	
+	border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+		
+}
+
+.page-id-1098 .my_friends ul li:hover {
+    background-color: rgb(177, 5, 94);
+	
+	transition:0.2s;
+	transform: scale(1.05);
+}
+
+
+.page-id-1098 .bc_avatar img{
+	
+	width:70px;
+	height:70px;
+	margin-bottom:1px;
+	border-radius: 40px!important;
+}
+
+
+
+
+.page-id-1098 .item-avatar img{
+	
+    border-radius: 30%!important;
+}
+
+.page-id-1098 #members-list li{
+      background-color: rgb(239, 234, 224);
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 180px;
+    padding-top: 5px;
+    -webkit-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.25);
+	transition:0.4s;
+	transform: scale(1);
+	margin-left: 5px;
+}
+
+.page-id-1098 #members-list li:hover {
+    background-color: rgb(177, 5, 94);
+	
+	transition:0.2s;
+	transform: scale(1.05);
+}
+
+.page-id-1098 ul.item-list li div.item-title a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+        font-size: 1.5em;
+	text-shadow: 1px 2px 0 rgb(0, 0, 0);
+	    margin-right: -13px;
+    vertical-align: -5px;
+}
+
+.page-id-1098 .item-meta{
+	    color: #4c4c4c;
+    font-family: 'Oswald', sans-serif;
+	
+    
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.page-id-1098 div.generic-button a.friendship-button {
+ 
+    color: #ffffff;
+
+   background-color: rgb(206, 0, 107);
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.2px;
+}
+
+.page-id-1098 div.generic-button a.friendship-button:hover {
+ 
+   
+    background-color: white;
+	color:black!important;
+	text-decoration:none;
+    
+}
+
+.page-id-1098 .country-flag {
+    margin-top: 1px;
+  
+}
+
+
+
+/* ================================================== */
+
+
+/* ===========PAGE ARROWCHAT===================== */
+.page-id-1362 #thearrow {
+  display:block;
+ margin:0 auto;
+}
+/* ================================================== */
+
+
+/* ===========PAGE MY HOME===================== */
+
+
+/* view more visitor */
+.page-id-1027 #viewmore{
+    background-color: #b50769;
+    border-radius: 4px;
+    color: white;
+    font-family: -webkit-pictograph;
+    /* font-weight: initial; */
+    font-size: 1.2em;
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+    padding: 0px 10px 5px 10px;
+}
+
+/* body {
+  
+    background-image: url(http://www.lepetitvapoteur.com/themes/vapoteur/css/../img/category/fond-produits.png)!important;
+}
+ */
+body {
+  
+    background-color:#d4d4d4!important;
+}
+
+.page-id-1027 .section{
+	padding:0;
+	/* background-image: url(http://img11.hostingpics.net/pics/288235macaron2.png); */
+    background-repeat: no-repeat;
+    background-position: 49.3% -154.4%;
+}
+
+.page-id-1027 .section h3{
+	text-align: center;
+   
+    font-family: 'Oswald', sans-serif;
+  
+    border-radius: 20px;
+        color: #465661;
+    width: 20%;
+      text-shadow: 3px 3px 0 rgba(95, 95, 95, 0.33);
+    margin-bottom: 30px;
+}
+
+.page-id-1027 .section h3 span{
+	
+   color:#b50769;
+   
+}
+
+.page-id-1027 .membersbar{
+	
+	    background-image: url(pattern/blue_pattern.gif);
+    background-position: center bottom;
+    background-repeat: repeat;
+	color: #bdbdbd;
+	    border-top: 2px solid rgba(255, 255, 255, 0.41);
+}
+
+.page-id-1027 #main{
+	
+	background: #171717 url(http://img11.hostingpics.net/pics/512915vapblackfond4.png)!important;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+	
+}
+
+.page-id-1027 h2{
+	
+	font-family: 'Oswald', sans-serif;
+    color: #fd00c4;
+   
+    padding-left: 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0;
+	    margin-top: 15px;		
+			
+		}	
+		
+
+
+
+.page-id-1027 .search-item .search-body {
+    height: 60px;
+    margin-bottom: 10px;
+    overflow: hidden;
+	display: none;
+    background-color: #f1f1f1;
+}
+
+.page-id-1027 .bp-member-dir-buttons {
+    margin-bottom: 1px;
+    background-color: #0095c2;
+    
+	padding-bottom: 10px;
+    padding-top: 5px;
+	display: none;
+}
+
+.page-id-1027 .bp-member-dir-buttons:hover {
+    margin-bottom: 1px;
+    background-color: #004458;
+     -webkit-transition: width 2s; /* Safari */
+	padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.page-id-1027 bp-member-dir-buttons a:hover{
+	background-color:red;
+	
+}
+
+
+.page-id-1027 .column, .columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 5px;
+    position: relative;
+    /* background-color: #f3f3f3; */
+}
+
+.page-id-1027 .button.radius {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 2px;
+}
+
+
+.page-id-1027 .search-item {
+        /* border: 1px solid #efefef; */
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+        background-color: rgba(255, 255, 255, 0.36);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    padding-top: 10px;
+  /*   background-image: url(http://img15.hostingpics.net/pics/422602fondcellule.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+ /* age city */
+.page-id-1027 .search-item .date, .search-item .date a{
+    height: 26px;
+    overflow: hidden;
+    color: #a5a5a5;
+    font-style: i;
+    font-size: 1.1em;
+    background-color: #f5f5f5;
+   
+    margin-left: 30px;
+    margin-right: 30px;
+	font-family: 'Oswald', sans-serif;
+	border-radius:10%;
+	line-height: 14px;
+	margin-top: -10px;
+	
+}
+
+/* pseudo */
+.page-id-1027 .author{
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+
+.page-id-1027 .item-avatar {
+       border-radius: 20px !important;
+    width: 150px;
+}
+
+.page-id-1027 .avatar img{
+        border-radius: 20px !important;
+    width: 150px;
+}
+
+
+
+.page-id-1027 #languages img{
+  margin-left: 30px;
+    margin-top: 10px;
+    width: 55px;
+
+}
+
+
+
+.page-id-1027 #languages{
+    
+    margin-bottom: 70px;
+   padding-bottom: 40px;
+	
+}
+
+.page-id-1027 #cellulelang{
+    
+        text-align: center;
+}
+
+
+.page-id-1027 #members-list{
+width: 115.5%;
+background-image: url(pattern/fond-deroulant.png);
+    padding-bottom: 25%;
+}
+
+.page-id-1027 .section-members .item-avatar {
+    padding: 1px;
+    margin-bottom: 10px;
+    /* width: 150px; */
+    /* height: 150px; */
+	
+}
+
+.page-id-1027 .members-list-options{
+	
+	color:white;
+}
+
+
+
+.page-id-1027 h3{
+        text-align: center;
+    color: #7d7d7d;
+    font-family: 'Oswald', sans-serif;
+  
+    width: 250px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* margin-top: 10px; */
+    
+}
+.page-id-1027 #footer{
+ margin-top: -63px;
+}
+
+#footer{
+
+  	
+background: rgb(23, 23, 23) url(pattern/vapfoot2.png)!important;
+	
+}
+
+/* ======LARGEUR CELLULES========== */
+.page-id-1027 .search-list {
+    
+    margin:0;
+}
+
+
+
+.page-id-1027 .row{
+	
+
+		
+
+}
+
+
+/* recent visitor */
+.page-id-1027 .row h3{
+	
+	background-color: #363636;
+    color: #b5b5b5;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+    font-size: 1.8em;
+
+}
+
+.page-id-1027 #recentvisitor img{
+	
+	width:135px;
+	height:135px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+    margin-left: 5px;
+	    border-radius: 20px !important;
+	  transform:scale(1);
+	transition:0.2s;
+}
+
+.page-id-1027 #recentvisitor img:hover{
+	
+	transform:scale(1.05);
+	transition:0.2s;
+	  
+}
+
+
+.page-id-1027 .search-meta{
+	
+	display:none;
+}
+
+.page-id-1027 #recentvisitor{
+	
+	  background-image: url(pattern/fond-deroulant.png);
+	
+	
+	
+}
+
+
+
+/*========ASIDE CUSTOM MYHOME============= */
+
+/* ASIDE */
+.page-id-1027 aside.four.columns{
+	
+
+}
+
+
+
+.page-id-1027 h5{
+	
+	font: normal 17px 'Open Sans';
+    color: #848484;
+        background-color: #151515;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    border-radius: 5px;
+	
+}
+
+
+/* WHOS ONLINE */
+
+.page-id-1027 div#groups-list-options.item-options{
+	
+	    text-align: center!important;
+        background-color: #151515;
+    width: 50%;
+    display: :block;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* color: white; */
+    padding: 5px;
+	
+	
+	
+}
+
+.page-id-1027 #bp_core_whos_online_widget-2 div.item-avatar{
+	
+	
+	width:90px;
+	display:inline-block;
+	 
+	
+}
+
+.page-id-1027 #bp_core_whos_online_widget-2 img{
+	
+	
+	width:90px;
+
+	
+}
+
+.page-id-1027 #bp_core_whos_online_widget-2 .avatar-block{
+	
+	    padding: 10px;
+        background-color: #212121;
+    border-radius: 7px;
+	    margin: -14px 0px;
+	
+}
+
+
+
+/* GROUP STYLE */
+.page-id-1027 #bp_groups_widget-2 div.item-avatar{
+	width:90px;
+	display:inline-block;
+	    float: left;
+	
+}
+
+.page-id-1027 #bp_groups_widget-2 img{
+	width:90px;
+
+}
+.page-id-1027 #bp_groups_widget-2 li{
+	    display: inline-block;
+        background-color: #212121;
+    padding: 5px;
+    margin-bottom: 4px;
+	    border-radius: 10px;
+		    width: 100%;
+}
+
+
+
+/* RECENT ACTIVE STYLE */
+.page-id-1027 #bp_core_recently_active_widget-3 img{
+	
+	width:70px;
+	    margin-bottom: 7px;
+	
+}
+
+
+.page-id-1027 #bp_core_recently_active_widget-3 div.item-avatar{
+	
+	width:70px;
+	display:inline-block;
+
+	
+}
+
+.page-id-1027 #bp_core_recently_active_widget-3 .avatar-block{
+	
+	    padding: 5px;
+        background-color: #212121;
+    border-radius: 6px;
+
+	
+}
+
+
+
+
+/* =========================================== */
+.page-id-1027 .avatar{
+	border-radius: 40px !important;
+	
+}
+
+.page-id-1027 .avatar a img{
+	border-radius: 40px !important;
+	transform:scale(1);
+	transition:0.2s;
+	
+}
+
+.page-id-1027 .avatar a img:hover{
+	transform:scale(1.05);
+	transition:0.2s;
+	
+	
+}
+
+
+.page-id-1027 .country-flag{
+	
+margin-bottom: 15px;
+	
+}    
+
+
+/* my home h2 effacement */
+.page-id-1027 .article-title{
+display:none;	
+	
+	
+}
+
+
+
+   
+		/* =====ACTIVITY STREAM */
+		.page-id-1027 .container{
+	
+			margin-left: -5px;
+			margin-right: -10px;
+    
+			-moz-box-shadow: -13px 0px 61px -32px rgba(0,0,0,0.75);
+    
+			background-color: #f5f5f5;
+		}  
+		
+		.page-id-1027 .activity-content{
+			
+			background-color:white;
+			
+		}
+		
+		.page-id-1027 .container h3{
+	
+			
+			color: #b5b5b5;
+			font-family: 'Oswald', sans-serif;
+			padding-left: 10px;
+    
+			
+			background: rgba(54,54,54,1);
+			background: -moz-linear-gradient(left, rgba(54,54,54,1) 0%, rgba(54,54,54,1) 94%, rgba(246,246,246,1) 94%, rgba(255,255,255,1) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(54,54,54,1)), color-stop(94%, rgba(54,54,54,1)), color-stop(94%, rgba(246,246,246,1)), color-stop(100%, rgba(255,255,255,1)));
+			background: -webkit-linear-gradient(left, rgba(54,54,54,1) 0%, rgba(54,54,54,1) 94%, rgba(246,246,246,1) 94%, rgba(255,255,255,1) 100%);
+			background: -o-linear-gradient(left, rgba(54,54,54,1) 0%, rgba(54,54,54,1) 94%, rgba(246,246,246,1) 94%, rgba(255,255,255,1) 100%);
+			background: -ms-linear-gradient(left, rgba(54,54,54,1) 0%, rgba(54,54,54,1) 94%, rgba(246,246,246,1) 94%, rgba(255,255,255,1) 100%);
+			background: linear-gradient(to right, rgba(54,54,54,1) 0%, rgba(54,54,54,1) 94%, rgba(246,246,246,1) 94%, rgba(255,255,255,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363636', endColorstr='#ffffff', GradientType=1 );	
+			} 
+
+		
+		.page-id-1027 h4{
+			font-family: 'Oswald', sans-serif;
+			text-align:center;
+			color: #927aa0;
+			font-size: 1.9em;
+			
+			
+			
+		}	
+
+/* GENERALE */
+.search-item .avatar {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 1px auto 1px;
+    border: 1px solid white;
+	
+	
+}
+
+/* ==============PAGE MY GROUP================= */
+
+.page-id-979 .button.radius{
+	
+	border-radius:20px;
+	
+}
+
+/* WIDGET RECENTLY VIEWED */
+.page-id-979 #bp_core_recently_active_widget-2{
+background-color: #f3f3f3;
+    border-radius: 10px;	
+	
+}
+
+.page-id-979 #bp_core_recently_active_widget-2 h5{
+    background-color: #dcdcdc;
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 60px;
+    color: #969696;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.page-id-979 #bp_groups_widget-2 h5{
+	 background-color: #dcdcdc;
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    
+    color: #969696;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+	
+	
+}
+
+.page-id-979 #bp_core_members_widget-2 h5{
+	 background-color: #dcdcdc;
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    
+    color: #969696;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+	
+	
+}
+
+
+
+.page-id-979 h2{
+	font: normal 30px 'Lato';
+    color: #91749a;
+    font-family: 'Oswald', sans-serif;
+	border-radius:20px;
+	
+}
+
+
+
+.page-id-979 .item-avatar {
+    border-radius: 3px !important;
+    width: 150px;
+}
+
+.page-id-979 .avatar img{
+    border-radius: 3px !important;
+    width: 150px;
+}
+
+
+.page-id-979 .search-item .date, .search-item .date a{
+	
+	height: 26px;
+    overflow: hidden;
+    color: #a5a5a5;
+    font-style: i;
+    font-size: 1.1em;
+    background-color: #f5f5f5;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10%;
+    line-height: 14px;
+    margin-top: 10px;
+	
+}
+
+.page-id-979 .search-item {
+    border: 1px solid #efefef;
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    box-shadow: 0px 0px 11px -1px rgba(237,237,237,1);
+    padding-top: 10px;
+	background-image: url(http://img15.hostingpics.net/pics/422602fondcellule.png);
+	background-repeat: no-repeat;
+    background-position: center;
+	margin-bottom: 10px;
+}
+
+
+
+/* pseudo */
+.page-id-979 .author{
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+
+/* ================================================= */
+/* ==============PAGE MY MESSAGES================= */
+
+
+.page-id-1339 .bc_subject a{
+	
+	padding-right: 700px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+	font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+
+/* .page-id-1339 .bc_subject:hover{
+-webkit-box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 32px -22px rgba(0,0,0,0.75);
+background-color:grey;
+padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ */
+ 
+ .page-id-1339 .my_messages-ul li{
+	margin-bottom:10px;
+-webkit-box-shadow: -14px 6px 19px -12px rgba(0,0,0,0.2);
+-moz-box-shadow: -14px 6px 19px -12px rgba(0,0,0,0.2);
+box-shadow: -14px 6px 19px -12px rgba(0,0,0,0.2);
+  
+	 
+ }
+
+
+ 
+.page-id-1339 .my_messages-ul li:hover{
+	 background-color:#fdc0e2;
+	  transition: all 0.5s ease;
+	
+  
+	 
+ }
+
+
+.page-id-1339 .message-infos{
+	
+	   
+		
+		
+}
+
+.page-id-1339 .message-infos p{
+	
+	    margin-left: 40px;
+		
+}
+
+.page-id-1339 .article-content{
+	
+	background-color:#fbfbfb;
+	
+
+}
+
+
+
+.page-id-1339 .bc_avatar img{
+	
+	width:45px;
+	height:45px;
+	margin-right:20px;
+	margin-left:20px;
+	
+}
+
+.page-id-1339 h2{
+	
+	    font-family: 'Oswald', sans-serif;
+    color: #676767;
+    text-align: center;
+    /* background-color: #bd1574; */
+    padding-top: 45px;
+    padding-bottom: 25px;
+    margin: 0;
+    -webkit-box-shadow: inset 1px -13px 18px -18px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: inset 1px -13px 18px -18px rgba(0,0,0,1);
+    box-shadow: inset 1px -13px 18px -15px rgba(0, 0, 0, 0.17);
+    /* border-radius: 5px 5px 0px 0px; */
+    font-size: 2.9em;
+    /* margin-top: 20px; */
+    /* display: block; */
+   
+	
+}
+
+.page-id-1339 h2 span{
+	color:#ff3aaf;
+}
+
+
+/* ==PAGE MESSAGE BIS== */
+
+.page-id-1438 h2{
+	
+	    font-family: 'Oswald', sans-serif;
+    color: #676767;
+    text-align: center;
+    /* background-color: #bd1574; */
+    padding-top: 45px;
+    padding-bottom: 25px;
+    margin: 0;
+    -webkit-box-shadow: inset 1px -13px 18px -18px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: inset 1px -13px 18px -18px rgba(0,0,0,1);
+    box-shadow: inset 1px -13px 18px -15px rgba(0, 0, 0, 0.17);
+    /* border-radius: 5px 5px 0px 0px; */
+    font-size: 2.9em;
+    /* margin-top: 20px; */
+    /* display: block; */
+	
+	
+}
+
+.page-id-1438 h2 span{
+	color:#ff3aaf;
+}
+
+
+
+
+/* ==PAGE COMPOSE== */
+.page-id-1429 h2{
+	
+	    font-family: 'Oswald', sans-serif;
+    color: #676767;
+    text-align: center;
+    /* background-color: #bd1574; */
+    padding-top: 45px;
+    padding-bottom: 25px;
+    margin: 0;
+    -webkit-box-shadow: inset 1px -13px 18px -18px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: inset 1px -13px 18px -18px rgba(0,0,0,1);
+    box-shadow: inset 1px -13px 18px -15px rgba(0, 0, 0, 0.17);
+    /* border-radius: 5px 5px 0px 0px; */
+    font-size: 2.9em;
+    /* margin-top: 20px; */
+    /* display: block; */
+   
+	
+}
+
+.page-id-1429 span{
+	color:#ff3aaf;
+}
+
+/* ==CELLCOMPOSE== */
+
+
+.composecell{
+	background-color:yellow;
+}
+
+
+/* ================================================= */
+
+/* ===============PAGE MY MESSAGES CUSTOM============ */
+
+.page-id-1339 .thread-from a{
+	
+    color: #d56dff;
+   
+  
+	height:10px;
+
+	
+   
+}
+
+.page-id-1339 .thread-from:hover{
+    background-color: rgb(236, 236, 236);
+	transition: all 0.5s ease;
+	
+	
+}
+
+.page-id-1339 .thread-info:hover{
+    background-color: rgb(236, 236, 236);
+	transition: all 0.5s ease;
+	
+	
+}
+
+.page-id-1339 .thread-info a{
+	 color: #d56dff;
+   
+   display:block;
+
+
+	height:50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+/* ==============PAGE MY MESSAGES INTO PROFILE================= */
+
+/* FORMULAIRE COMPOSE */
+#send-reply{
+	
+	background-color: #33283e;
+    border-radius: 5px;
+}
+
+.standard-form#send-reply textarea {
+    width: 150.5%;
+    background-color: #261e2f;
+    color: white;
+    border: solid 1px #3c2f4a;
+}
+
+
+
+/* AVATAR MESSAGE */
+div#message-thread span.avatar {
+  
+   width: 50px;
+    height: 50px;
+	margin-right:10px;
+	margin-bottom:10px;
+	
+}
+
+div#message-thread span.avatar img{
+  
+    width: 50px;
+    height: 50px;
+	margin-right:10px;
+	
+}
+
+
+/* CELLULE MESSAGE */
+.message-box{
+	    border-radius: 20px;
+	
+    margin-bottom: 20px;
+   -webkit-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.29);
+}
+
+
+.thread-info a{
+	 color: #d56dff;
+   
+   display:block;
+
+
+	height:50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+[class^="icon-"], [class*=" icon-"] {
+    
+    font-size: 1.2em;
+}
+
+/* .read:hover{
+	
+	background-color:grey;
+} */
+
+.thread-info:hover{
+    background-color: rgb(236, 236, 236);
+	transition: all 0.5s ease;
+	
+	
+}
+
+
+/* ================================================= */
+
+
+
+/* ==============================REGISTER BUTTON================================= */
+
+.header-register-button{
+	
+	display:none;
+	
+}
+
+
+/* style user profile  flags*/
+
+.custom-wrapper:after {
+    content: "";
+    display: table;
+}
+.custom-wrapper:after {
+    clear: both;
+}
+
+.custom-wrapper .country-flag {
+    float: left;
+    
+    top: -10px;
+   
+    position: absolute;
+}
+
+.profile-title {
+    float: left;
+}
+
+.country-flag {
+    margin-top: 15px;
+	display:inline-block;
+}
+
+
+.custom-flag {
+     position: absolute;
+    top: 9.5px;
+   
+    width: 12px;
+    height: 12px;
+    left: 14.2%;
+	display:none;
+}
+
+.custom-gender {
+    position: absolute;
+    top: 4.5px;
+    width: 4%;
+    /* height: 50%; */
+    left: 10.5%;
+	display:none;
+}
+
+.custom-visit {
+       /* position: absolute; */
+    top: 5px;
+    right: 70%;
+    /* display: none; */
+    /* width: 50px; */
+    height: 60px;
+	   
+}
+.custom-visit2 {
+   /* position: absolute; */
+    top: 5px;
+    right: 70%;
+	/* display:none; */
+	width:50px;
+	height:60px;
+}
+.bp-field-value {
+    position: relative;
+}
+
+
+
+.custom-wrapper .country-flag img {
+      width: 70px;
+	height:70px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+}
+
+.country-flag img {
+     width: 50%;
+	 -webkit-box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+	border-radius: 50%;
+		
+}
+
+
+
+/* style user profile  gender icons*/
+
+
+.gendericons {
+  
+    display: inline-block;
+    -webkit-box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    border-radius: 50%;
+    width: 25%;
+	margin-bottom:10px;
+	    margin-left: -10px;
+}
+
+.gendericons2 {
+  
+    display: inline-block;
+    -webkit-box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.08);
+    border-radius: 50%;
+        width: 20%;
+	margin-bottom:10px;
+	    margin-left: -10px;
+}
+
+/* ===============PAGE REGISTER FRONT HOME============== */
+
+.page-id-844 #support{
+
+	    border-top: 1px solid rgba(250, 250, 250, 0);
+		    background-color: #fff6e3;
+			    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+
+
+.page-id-844 p{
+	
+	margin:0!important;
+	
+}
+.page-id-844 .section5{
+
+padding-bottom:80px;
+    padding-top: 50px;
+	background: url(pattern/whitefond3.jpg);
+	-webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.page-id-844 .section5 h2{
+
+    font-size: 2.9em;
+    text-shadow: 3px 3px 0 rgba(175, 175, 175, 0.65);
+    font-family: 'Oswald', sans-serif!important;
+    letter-spacing: 0.2px;
+
+    font-weight: inherit;
+	
+}
+
+
+.page-id-844 .section5 h4 a{
+    color: #a2a2a2!important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder!important;
+	
+}
+
+
+
+
+
+.page-id-844 .section6{
+	
+    text-align: center;
+     background-color:#780022;
+    /* -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75); */
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07); */
+    color: white!important;
+
+    /* background: url(http://www.lookingforpals.com/wp-content/uploads/patred.jpg); */
+    padding-top: 100px;
+    padding-bottom: 129px;
+   
+    /* background-repeat-y: no-repeat; */
+}
+
+
+.page-id-844 .section6 h4{
+color: #ffffff!important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4em;
+    margin-bottom: 24px;
+     /*   text-shadow: 3px 3px 0 rgb(0, 0, 0); */
+	    font-style: italic;
+}
+
+.page-id-844 .section6 span{
+	       /*  text-shadow: 3px 3px 0 rgb(0, 0, 0); */
+		   color:white!important;
+	
+}
+
+.page-id-844 .section6 strong{
+	    color: #ffbb72!important;
+
+	
+	    font-family: 'Oswald', sans-serif;
+}
+
+.page-id-844 .section6 p{
+	    color: white;
+	  font-style: italic;
+}
+
+
+
+
+
+.page-id-844 .with-border {
+   border-bottom: 1px solid rgba(221, 221, 221, 0)!important;
+}
+
+
+.page-id-844 .section4{
+	
+background: url(http://www.lookingforpals.com/wp-content/uploads/whitefond2.jpg);
+
+}
+
+
+
+.top-links ul{
+font-family: 'Oswald', sans-serif!important;
+    letter-spacing: 0.2px;
+
+       color: #9a9a9a!important;
+
+}
+
+
+.top-links, .top-links a, .circular-progress-item input, .ajax_search_image .icon {
+color: #9a9a9a!important;
+
+}
+
+
+
+.page-id-844 .section4 h2{
+    font-family: 'Yesteryear', cursive;
+    font-size: 3.5em;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
+	
+.page-id-844 .section4 a{
+ font-family: 'Oswald', sans-serif;
+ font-weight:bolder;
+ letter-spacing:0.2px;
+     color: #888888!important;
+	     font-size: 1.1em;
+}
+	
+.page-id-844 .item-meta{
+ font-family: 'Oswald', sans-serif;
+letter-spacing:0.2px;
+}
+		
+.page-id-844 .s3titre{
+text-align: center;
+    font-family: 'Oswald', sans-serif;
+  font-size: 8.5em;
+ 
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+	text-shadow: 5px 3px 0 rgb(77, 143, 139);
+	    margin-bottom: -20px;
+	
+}
+
+.page-id-844 .s3text{
+	
+	text-align: center;
+	
+	
+}
+
+.page-id-844 .s3text a{
+	
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+ 
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+	
+	color: #e0e0c8;
+    padding: 0px 10px 0px 10px;
+    background-color: #4d8f8b;
+	    text-decoration: none;
+    list-style: none;
+	text-shadow: 5px 3px 0 rgba(66, 65, 62, 0.29);
+   
+}	
+
+.page-id-844 .s3text a:hover{
+	
+ color:#e0e0c8;
+   
+}
+
+.page-id-844 .s3text p{
+
+    margin-bottom: 10px!important;
+}	
+	
+	
+.page-id-844 .light a{
+
+   /*  font-weight:lighter;
+	text-shadow: 2px 3px 0 rgba(66, 65, 62, 0.29); */
+}	
+	
+		
+	
+	
+
+.page-id-844 .block1{
+    height: 610px;
+	background: url(pattern/Firenze.png);
+    background-repeat: no-repeat;
+	    background-position: center;
+ /* 
+    margin-left: 155px!important;
+ 
+    margin-top: 100px; */
+}
+
+.page-id-844 .block2{
+background: url(pattern/s8img.png);
+
+    height: 350px;
+   /*  background: url(http://www.lookingforpals.com/wp-content/uploads/banner5texte.png); */
+    background-repeat: no-repeat;
+   /*  margin-left: 155px!important;
+    margin-top: 100px; */
+	    background-position: center;
+
+}
+
+.page-id-844 .s8text{
+	
+
+
+
+   
+}	
+
+
+.page-id-844 .s8text p{
+	line-height: 45px;
+	
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+ 
+    letter-spacing: 0.2px;
+
+
+	/* text-shadow: 5px 3px 0 rgba(66, 65, 62, 0.29); */
+   
+}	
+
+.page-id-844 .s8titre{
+	
+    font-family: 'Oswald', sans-serif;
+      font-size: 5.5em;
+	      padding-top: 80px;
+	    text-shadow: 5px 3px 0 rgb(19, 185, 139);
+	
+   
+}	
+
+
+
+.page-id-844 .orange p{
+	
+    color:#ff9f39;
+}	
+
+.page-id-844 .rose p{
+	
+    color:#ff8cb0;
+   
+}	
+
+.page-id-844 .bleu p{
+	
+    color:#70d2c9;
+   
+}	
+
+.page-id-844 .fushia p{
+	
+    color:#e67a82;
+   
+}	
+
+.page-id-844 .vert p{
+	
+    color:#8bc90c;
+   
+}	
+
+
+
+
+.page-id-844 .section3{
+		height: 1125px;
+		color:white!important;
+	   /*  background-color: #9e2151; */
+		      /* background: url(http://www.lookingforpals.com/wp-content/uploads/patredtopbot.png); */
+		background: rgba(131,169,190,1);
+		background: -moz-linear-gradient(top, rgba(131,169,190,1) 0%, rgba(253,241,203,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(131,169,190,1)), color-stop(100%, rgba(253,241,203,1)));
+		background: -webkit-linear-gradient(top, rgba(131,169,190,1) 0%, rgba(253,241,203,1) 100%);
+		background: -o-linear-gradient(top, rgba(131,169,190,1) 0%, rgba(253,241,203,1) 100%);
+		background: -ms-linear-gradient(top, rgba(131,169,190,1) 0%, rgba(253,241,203,1) 100%);
+		background: linear-gradient(to bottom, rgba(131,169,190,1) 0%, rgba(253,241,203,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83a9be', endColorstr='#fdf1cb', GradientType=0 );
+			
+}
+
+.page-id-844 .section8{
+	padding-bottom:80px;
+		text-align:center;
+		color:white!important;
+	   /*  background-color: #9e2151; */
+		        /* background: url(http://www.lookingforpals.com/wp-content/uploads/patneutretop.png); */
+		background: rgba(186,221,167,1);
+		background: -moz-linear-gradient(top, rgba(186,221,167,1) 0%, rgba(253,241,203,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(186,221,167,1)), color-stop(100%, rgba(253,241,203,1)));
+		background: -webkit-linear-gradient(top, rgba(186,221,167,1) 0%, rgba(253,241,203,1) 100%);
+		background: -o-linear-gradient(top, rgba(186,221,167,1) 0%, rgba(253,241,203,1) 100%);
+		background: -ms-linear-gradient(top, rgba(186,221,167,1) 0%, rgba(253,241,203,1) 100%);
+		background: linear-gradient(to bottom, rgba(186,221,167,1) 0%, rgba(253,241,203,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#badda7', endColorstr='#fdf1cb', GradientType=0 );
+			
+}
+
+
+
+.page-id-844 .section2{
+	
+		color:white!important;
+	          background-color: #ffffff;
+			      background: url(pattern/whitefond3.jpg);
+}
+
+
+
+
+
+.page-id-844 .section2 p{
+	
+		    color: #464646!important;
+	    
+}
+
+
+.page-id-844 .section2 .lead{
+/* 	margin: 0!important; */
+	     margin-bottom: 60px!important;   
+}
+
+
+
+.page-id-844 #bandeaucelluleinter{
+	    display: inline-block;
+		    margin-bottom: 50px;
+			margin-top: 10px;
+			
+}
+
+
+
+.page-id-844 .celluleinter {
+    margin-top: 30px;
+ 
+    color: white;
+    display: block;
+    float: left;
+	    height: 320px;
+    margin-left: 19px;
+    
+ 
+}
+
+.page-id-844 .celluleinter img {
+ /* 
+	width: 220px;
+      border-radius: 50%;
+    height: 220px;
+	border: 7px solid white;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11); */
+	  border-radius: 50%;
+	  margin-bottom: 20px;
+}
+
+
+.page-id-844 .kleospot {
+    margin-top: 20px;
+	 margin-bottom: 65px;
+	     font-family: 'Oswald', sans-serif;
+}
+
+
+.page-id-844 .clear{
+	
+	clear:both;
+}
+
+.page-id-844 .somuch{
+font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px 0 rgb(230, 230, 230);
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #848484;
+}
+
+
+.page-id-844 #bandeaucelluleinter p {
+    /* margin-top: 20px!important; */
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    /* color: #a9a196; */
+    text-align: center;
+ 
+    /* background-color: white; */
+    border-radius: 30px;
+    /* -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37); */
+  /*   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37); */
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06); */
+    text-shadow: 3px 3px 0 rgb(230, 230, 230);
+    color: #7d7d7d!important;
+    /* font-size: 1.3em; */
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+
+.page-id-844 #bandeaucelluleinter2{
+	    display: inline-block;
+		    margin-bottom: 50px;
+			 margin-top: 30px;
+			
+}
+
+.page-id-844 .celluleinter2 {
+    margin-top: 30px;
+ 
+    color: white;
+    display: block;
+    float: left;
+	    height: 320px;
+  
+  
+ 
+    margin-left: 19px;
+    
+ 
+}
+
+.page-id-844 .celluleinter2 img {
+ 
+  width: 220px;
+      border-radius: 50%;
+    height: 220px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.33);
+    border: 7px solid white;
+}
+
+.page-id-844 .celluleinter2 strong {
+ 
+        color: #7d7d7d!important;
+	     width: 60%;
+    margin: 0 auto;
+    border-radius: 30px;
+
+    display: block;
+	text-transform: uppercase;
+    font-size: 1.05em!important;
+    text-shadow: 3px 3px 0 rgb(230, 230, 230);
+}
+
+
+
+
+.page-id-844 #bandeaucelluleinter2 p {
+     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    color: #a9a196;
+    text-align: center;
+    line-height: 58px;
+    background-color: #ffffff;
+    border-radius: 30px;
+   /*  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.14); */
+}
+
+
+
+
+
+.page-id-844 .kleo-video .central a.videoClose {
+    position: initial;
+	color:white;
+ 
+}
+
+.page-id-844 .kleo-video {
+
+    border: 7px solid white;
+}
+
+
+.page-id-844 h1 {
+
+    font-size: 3.1em;
+    text-shadow: 3px 3px 0 rgba(175, 175, 175, 0.65);
+    font-family: 'Oswald', sans-serif!important;
+    letter-spacing: 0.2px;
+ 
+    margin-bottom: 10px!important;
+    font-weight: inherit;
+}
+
+.page-id-844 .lead {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+	    letter-spacing: 0.2px;
+		    color: black;
+	
+}
+
+.page-id-844 .section6 .lead {
+
+  
+	font-style:italic;
+}
+
+
+
+.page-id-844 ul.profile-thumbs li {
+    width: 75px !important;
+    height: 75px !important;
+}
+
+
+.page-id-844 .header-bg{
+/* background: #241e38 url(http://www.lookingforpals.com/wp-content/themes/sweetdate/assets/images/patterns/blue_pattern.gif); */
+background: url(pattern/newban3.jpg);
+    background-repeat: no-repeat;
+  
+	
+	
+}
+
+.page-id-844 h6 {
+
+    font-size: 2.9em;
+    text-shadow: 3px 3px 0 rgba(175, 175, 175, 0.65);
+    font-family: 'Oswald', sans-serif!important;
+    letter-spacing: 0.2px;
+
+    margin-bottom: 10px!important;
+    font-weight: inherit;
+}
+
+.page-id-844 p{
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 1.3em;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+}
+
+
+.page-id-844 .form-search.custom div.custom.dropdown a.current, .form-search.custom input[type="text"], .form-search.custom input[type="password"], .form-search.custom select {
+    background-color: #ffffff!important;
+}
+
+.page-id-844 .form-search.custom input[type="text"], .form-search.custom input[type="password"] {
+    border: 1px solid #ffffff!important;
+}
+
+.page-id-844 .button:hover, .button:focus, .form-search .button, .form-search .button:hover, .form-search .button:focus, .wpcf7-submit:focus, .wpcf7-submit:hover, #rtmedia-add-media-button-post-update:hover, #rt_media_comment_submit:hover, .rtmedia-container input[type="submit"]:hover {
+  
+       background-color: #730d22!important;
+    border: 1px solid #951b32!important;
+
+}
+
+
+.page-id-844 #footer{
+	
+background: rgb(23, 23, 23) url(pattern/vapfoot2.png)!important;
+    border-top: 1px solid rgba(255, 255, 255, 0.21);
+
+}    
+
+
+.page-id-844 .form-footer {
+ 
+   color:white!important;
+  border-left: 10px solid #ffffff!important;
+    border-bottom: 10px solid #ffffff!important;
+    border-right: 10px solid #ffffff!important;
+        background: #ffffff;
+		-webkit-box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 15px -6px rgba(0,0,0,0.75);
+}
+
+.page-id-844 .form-search .notch {
+    border-top: 10px solid #991f38!important;
+}
+
+
+.page-id-844 .white-text {
+   font-family: 'Oswald', sans-serif!important;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.58)!important;
+    font-size: 2.1em!important;
+	margin-bottom: 30px;
+}
+
+.page-id-844 .reg-form-details{
+	font-family: 'Oswald', sans-serif!important;
+    letter-spacing: 0.2px!important;
+    font-weight: 400!important;
+	    margin-bottom: 20px!important;
+	
+	
+}
+
+
+.page-id-844 strong, b {
+   
+
+    font-family: 'Oswald', sans-serif!important;
+	    color: grey!important;
+    font-size: 1.2em!important;
+}
+
+.page-id-844 #header, #header .form-header .lead, #header label {
+
+    font-family: 'Oswald', sans-serif!important;
+ 
+}
+
+
+.page-id-844 .form-search, .form-header{
+  border-left: 1px solid rgb(147, 25, 50)!important;
+    border-top: 1px solid rgb(151, 29, 54)!important;
+    border-right: 1px solid rgb(155, 31, 59)!important;
+    background: url(http://www.lookingforpals.com/wp-content/uploads/patred.jpg)!important;
+	
+}
+
+.page-id-844 .form-search.custom .columns {
+    height: 1px;
+ 
+}
+
+
+.page-id-844 profile .five, .row .five {
+       margin-top: 7px;
+}
+
+.page-id-844 .avatar, .attachment-shop_thumbnail, .carousel-profiles li, .carousel-profiles img, .buddypress.widgets ul.item-list .item-avatar, .buddypress.widgets .avatar-block .item-avatar, #bbpress-forums div.bbp-forum-author .bbp-author-avatar, #bbpress-forums div.bbp-topic-author .bbp-author-avatar, #bbpress-forums div.bbp-reply-author .bbp-author-avatar, .search-item .avatar img {
+    border-radius: 50% !important;
+}
+
+/* ======================================= */
+
+@media screen and (max-width: 940px)
+{
+
+
+
+
+.page-id-1027 .row{
+	
+	/* margin-left: 10px; */
+	/* -webkit-box-shadow: 2px 29px 54px -50px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 29px 54px -50px rgba(0,0,0,0.75);
+	box-shadow: 2px 29px 54px -50px rgba(0,0,0,0.75); */
+	width: 100%
+		
+
+}
+
+/* recent visitor */
+.page-id-1027 .row h3{
+	
+	background-color:#363636;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+
+
+/* my home h2 effacement */
+.page-id-1027 .article-title{
+display:none;	
+	
+	
+}
+
+
+/* GENERALE */
+.page-id-1027 .search-item .avatar {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 1px auto 1px;
+    border: 1px solid white;
+	
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 782px)
+{
+
+
+
+
+}
+
+
+@media screen and (max-width: 767px)
+{
+
+
+
+
+}
